@@ -49,7 +49,7 @@ public class Main {
         long [] arr_ln=new long[] {1,2,3,4,5};
         for (int i=0;i<arr_ln.length;i++) {
         if (arr_ln[i]%2 != 0) arr_ln[i]=arr_ln[i]+1;
-           System.out.print((i+1)+" элемент массива  ="+ arr_ln[i]);
+           System.out.print(" ячейка с индексом "+i+" ="+ arr_ln[i]);
             if (i == arr_ln.length-1) break;
             System.out.print(" , ");
         }
